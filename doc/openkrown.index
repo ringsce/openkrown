@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="" title="openkrown Reference Documentation" version="" project="openkrown">
+    <namespace name="" status="active" access="public" module="openkrown">
+        <namespace name="Ui" href="ui-sub-openkrown.html" status="internal" access="private" location="mainwindow.h" filepath="/Users/pedro/Projects/openkrown/mainwindow.h" lineno="7"/>
+        <typedef name="ZPOS64_T" status="internal" access="private" location="ioapi.h" filepath="/Users/pedro/Projects/openkrown/libs/minizip/ioapi.h" lineno="97"/>
+    </namespace>
+</INDEX>

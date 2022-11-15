@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="styles.css"?>
+<!DOCTYPE note SYSTEM "game.dtd">
+<game>
+
+<node>
+
+<button>
+</button>
+<listView>
+</listView>
+<GridLayout>
+</GridLayout>
+<textArea>
+<textArea>
+
+</node>
+
+
+</game>
