@@ -1,0 +1,6 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="icons">
+        <file alias="hand_icon.ico">hand_icon.ico</file>
+    </qresource>
+</RCC>
