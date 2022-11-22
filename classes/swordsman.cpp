@@ -1,0 +1,3 @@
+class dog : public animal{
+    
+}

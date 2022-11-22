@@ -1,6 +1,14 @@
-class Animal {
-    // eat() function
+#pragma region 
+#include "animal.h"
+#pragma endregion
+class dog : public animal{
+
     void eat();
-    // sleep() function
+
     void sleep();
-};
+
+    void levelup();
+
+    void bark();
+
+}
