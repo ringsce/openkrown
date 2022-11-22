@@ -1,0 +1,4 @@
+/Users/pedro/Projects/openkrown/openkrown/CMakeFiles/openkrown.dir
+/Users/pedro/Projects/openkrown/openkrown/CMakeFiles/edit_cache.dir
+/Users/pedro/Projects/openkrown/openkrown/CMakeFiles/rebuild_cache.dir
+/Users/pedro/Projects/openkrown/openkrown/CMakeFiles/openkrown_autogen.dir

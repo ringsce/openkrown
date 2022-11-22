@@ -11,6 +11,15 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+##
+## Warning: This code did not work for me.
+## Don't copy it.
+## Keep reading.
+##
+
+find_library(SDL2_LIBRARY NAME SDL2)
+include_directories(age ${SDL2_INCLUDE_DIR})
+
 # QtCreator supports the following variables for Android, which are identical to qmake Android variables.
 # Check https://doc.qt.io/qt/deployment-android.html for more information.
 # They need to be set before the find_package( ...) calls below.
