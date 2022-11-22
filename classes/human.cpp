@@ -1,3 +1,6 @@
-class dog : public animal{
+#pragma region
+#include "humans.hpp"
+
+class Human : public  humans{
     
 }
