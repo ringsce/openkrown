@@ -2,10 +2,6 @@
 <?xml-stylesheet href="styles.css"?>
 <!DOCTYPE note planet "game.dtd">
 <game>
-
-<node>
-
-<!DOCTYPE planet>
 <planet>
 
 <ocean>
@@ -39,7 +35,6 @@
 </ocean>
 
 </planet>
-</node>
 
 
 </game>
