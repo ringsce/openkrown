@@ -1,3 +1,3 @@
-class dog : public animal{
+class swordsman : public human{
     
 }
