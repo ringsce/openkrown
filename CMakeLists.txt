@@ -1,4 +1,8 @@
 cmake_minimum_required(VERSION 3.25)
+project(First VERSION 1.0.0)
+project(Second VERSION 0.10.0)
+add_subdirectory(math)
+project(Third VERSION 6.7.8)
 
 project(openkrown LANGUAGES CXX)
 
