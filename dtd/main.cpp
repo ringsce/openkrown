@@ -12,7 +12,7 @@ sprintf("Node foobar has value " + node->value() + "\n");
 for (xml_attribute<> *attr = node->first_attribute();
      attr; attr = attr->next_attribute())
 {
-    sprintf("Node foobar has attribute " + attr->name() + " ");
+    cout << "Node foobar has attribute " << attr->name() << " ";
     sprintf( "with value " + attr->value() + "\n");
 }
 }
