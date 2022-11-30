@@ -5,34 +5,70 @@
 <planet>
 
 <ocean>
-<name>Arctic</name>
+<name>Garlynmi</name>
 <area>13,000</area>
 <depth>1,200</depth>
 </ocean>
 
 <ocean>
-<name>Atlantic</name>
+<name>Atlanty</name>
 <area>87,000</area>
 <depth>3,900</depth>
 </ocean>
 
 <ocean>
-<name>Pacific</name>
+<name>Pacificcia</name>
 <area>180,000</area>
 <depth>4,000</depth>
 </ocean>
 
 <ocean>
-<name>Indian</name>
+<name>Galdryian</name>
 <area>75,000</area>
 <depth>3,900</depth>
 </ocean>
 
 <ocean>
-<name>Southern</name>
+<name>Southern Sea</name>
 <area>20,000</area>
 <depth>4,500</depth>
 </ocean>
+
+    <land>
+        <name></name>
+        <area>
+
+        </area>
+        <depth></depth>
+    </land>
+    <land>
+        <name></name>
+        <area>
+
+        </area>
+        <depth></depth>
+    </land>
+    <land>
+        <name></name>
+        <area>
+
+        </area>
+        <depth></depth>
+    </land>
+    <land>
+        <name></name>
+        <area>
+
+        </area>
+        <depth></depth>
+    </land>
+    <land>
+        <name></name>
+        <area>
+
+        </area>
+        <depth></depth>
+    </land>
 
 </planet>
 

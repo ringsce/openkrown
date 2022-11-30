@@ -1,44 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="styles.css"?>
 <!DOCTYPE note lands "game.dtd">
-<game>
-
+<!DOCTYPE lands>
 <node>
+    <lands>
 
-<!DOCTYPE planet>
-<planet>
+    <land>
+        <name></name>
+        <area>
 
-<ocean>
-<name>Arctic</name>
-<area>13,000</area>
-<depth>1,200</depth>
-</ocean>
+        </area>
+        <depth></depth>
+    </land>
 
-<ocean>
-<name>Atlantic</name>
-<area>87,000</area>
-<depth>3,900</depth>
-</ocean>
+        <land>
+            <name></name>
+            <area>
 
-<ocean>
-<name>Pacific</name>
-<area>180,000</area>
-<depth>4,000</depth>
-</ocean>
+            </area>
+            <depth></depth>
+        </land>
+        <land>
+            <name></name>
+            <area>
 
-<ocean>
-<name>Indian</name>
-<area>75,000</area>
-<depth>3,900</depth>
-</ocean>
+            </area>
+            <depth></depth>
+        </land>
+        <land>
+            <name></name>
+            <area>
 
-<ocean>
-<name>Southern</name>
-<area>20,000</area>
-<depth>4,500</depth>
-</ocean>
+            </area>
+            <depth></depth>
+        </land>
+        <land>
+            <name></name>
+            <area>
 
-</planet>
+            </area>
+            <depth></depth>
+        </land>
+</lands>
 </node>
 
 
