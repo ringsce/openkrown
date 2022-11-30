@@ -8,13 +8,9 @@
 </button>
 <listView>
 </listView>
-<GridLayout>
-</GridLayout>
-    <Layout>
-
-    </Layout>
-<textArea>
-</textArea>
+<GridLayout></GridLayout>
+    <Layout></Layout>
+<textArea></textArea>
 
 </node>
 
