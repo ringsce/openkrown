@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include "stdlib.h"
+#include <iostream>
 #include "./rapidxml/rapidxml.hpp"
 using namespace std;
 using namespace rapidxml;
-xml_document<> doc;    // character type defaults to char
+
+char xml_document<> doc;    // character type defaults to char
 doc.parse<0>(text);    // 0 means default parse flags
 int main()
 {
@@ -16,4 +18,5 @@ for (xml_attribute<> *attr = node->first_attribute();
     std::cout << "Node foobar has attribute " << attr->name() << " ";
     std::cout << "with value "  << attr->value() << "\n";
 }
+
 }
