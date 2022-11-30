@@ -13,6 +13,6 @@ for (xml_attribute<> *attr = node->first_attribute();
      attr; attr = attr->next_attribute())
 {
     cout << "Node foobar has attribute " << attr->name() << " ";
-    cout "with value "  << attr->value() << "\n";
+    cout << "with value "  << attr->value() << "\n";
 }
 }
