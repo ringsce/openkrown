@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "stdlib.h"
 #include "./rapidxml/rapidxml.hpp"
+using namespace std;
 using namespace rapidxml;
 xml_document<> doc;    // character type defaults to char
 doc.parse<0>(text);    // 0 means default parse flags
