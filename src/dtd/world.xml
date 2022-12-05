@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="styles.css"?>
+<world>
+    <name></name>
+    <ocean></ocean>
+    <land></land>
+    <depth></depth>
+
+    <name></name>
+    <ocean></ocean>
+    <land></land>
+    <depth></depth>
+
+    <name></name>
+    <ocean></ocean>
+    <land></land>
+    <depth></depth>
+
+    <name></name>
+    <ocean></ocean>
+    <land></land>
+    <depth></depth>
+
+    <name></name>
+    <ocean></ocean>
+    <land></land>
+    <depth></depth>
+
+</world>

@@ -1,0 +1,2 @@
+project(math VERSION 1)
+message("CMAKE_PROJECT_VERSION = ${CMAKE_PROJECT_VERSION}")

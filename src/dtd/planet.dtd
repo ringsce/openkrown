@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="styles.css"?>
+<!DOCTYPE note planet "game.dtd">
+<game>
+<planet>
+
+<ocean>
+<name>Garlynmi</name>
+<area>13,000</area>
+<depth>1,200</depth>
+</ocean>
+
+<ocean>
+<name>Atlanty</name>
+<area>87,000</area>
+<depth>3,900</depth>
+</ocean>
+
+<ocean>
+<name>Pacificcia</name>
+<area>180,000</area>
+<depth>4,000</depth>
+</ocean>
+
+<ocean>
+<name>Galdryian</name>
+<area>75,000</area>
+<depth>3,900</depth>
+</ocean>
+
+<ocean>
+<name>Southern Sea</name>
+<area>20,000</area>
+<depth>4,500</depth>
+</ocean>
+
+    <land>
+        <name></name>
+        <area>
+
+        </area>
+        <depth></depth>
+    </land>
+    <land>
+        <name></name>
+        <area>
+
+        </area>
+        <depth></depth>
+    </land>
+    <land>
+        <name></name>
+        <area>
+
+        </area>
+        <depth></depth>
+    </land>
+    <land>
+        <name></name>
+        <area>
+
+        </area>
+        <depth></depth>
+    </land>
+    <land>
+        <name></name>
+        <area>
+
+        </area>
+        <depth></depth>
+    </land>
+
+</planet>
+
+
+</game>
