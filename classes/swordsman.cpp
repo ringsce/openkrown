@@ -1,3 +1,0 @@
-class swordsman : public human{
-    
-}
