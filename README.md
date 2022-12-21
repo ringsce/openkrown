@@ -10,7 +10,7 @@ This is an open source engine for iOS and macOS. It relies on Xcode 13+, iOS 15+
 # Which is the purpose to do another engine?
 There are so many engines but for me I don't have any kind of engine to build my own RPG or CCG games.
 Today, I want to deliver an engine as a learning purpose.
-Here, you will see UI coded with swift. The engine will ahve a static library way. With these libraries you can code by your own games.
+Here, you will see UI coded with swift. The engine will have a static library way. With these libraries you can code by your own games.
 On this GitHub you will find an IDE called RingsCE, for the coding. For now, is a proof of concept. We are coding the swift UI for RingsCE.
 We are learners also as you, we are learning how to build custom UI, C++ openGL, vulkan for the gaming shadows.
 Remember, these project is a proof of concept for now. 
@@ -28,7 +28,7 @@ Be careful for now building. You must test the test units separate for now.
 You can open the project now on XCode Big Sur, qt creator, and intellij.
 
 # Contribute & Donators
-If you want to contribute, for us on github.
+If you want to contribute, fork us on github.
 https://github.com/ringsce
 
 If you want donate, you can see the links as above.
