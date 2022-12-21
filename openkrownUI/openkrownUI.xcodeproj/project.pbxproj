@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB85F5DA295221BF00328C18 /* openkrownUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB85F5D9295221BF00328C18 /* openkrownUIApp.swift */; };
+		EB85F5DC295221BF00328C18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB85F5DB295221BF00328C18 /* ContentView.swift */; };
+		EB85F5DE295221C600328C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB85F5DD295221C600328C18 /* Assets.xcassets */; };
+		EB85F5E1295221C600328C18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB85F5E0295221C600328C18 /* Preview Assets.xcassets */; };
+		EB85F5EC295221C600328C18 /* openkrownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB85F5EB295221C600328C18 /* openkrownUITests.swift */; };
+		EB85F5F6295221C600328C18 /* openkrownUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB85F5F5295221C600328C18 /* openkrownUIUITests.swift */; };
+		EB85F5F8295221C600328C18 /* openkrownUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB85F5F7295221C600328C18 /* openkrownUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB85F5E8295221C600328C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB85F5CE295221BF00328C18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB85F5D5295221BF00328C18;
+			remoteInfo = openkrownUI;
+		};
+		EB85F5F2295221C600328C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB85F5CE295221BF00328C18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB85F5D5295221BF00328C18;
+			remoteInfo = openkrownUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB85F5D6295221BF00328C18 /* openkrownUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openkrownUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB85F5D9295221BF00328C18 /* openkrownUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openkrownUIApp.swift; sourceTree = "<group>"; };
+		EB85F5DB295221BF00328C18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB85F5DD295221C600328C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB85F5E0295221C600328C18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB85F5E2295221C600328C18 /* openkrownUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = openkrownUI.entitlements; sourceTree = "<group>"; };
+		EB85F5E7295221C600328C18 /* openkrownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openkrownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB85F5EB295221C600328C18 /* openkrownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openkrownUITests.swift; sourceTree = "<group>"; };
+		EB85F5F1295221C600328C18 /* openkrownUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openkrownUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB85F5F5295221C600328C18 /* openkrownUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openkrownUIUITests.swift; sourceTree = "<group>"; };
+		EB85F5F7295221C600328C18 /* openkrownUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openkrownUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB85F5D3295221BF00328C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB85F5E4295221C600328C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB85F5EE295221C600328C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB85F5CD295221BF00328C18 = {
+			isa = PBXGroup;
+			children = (
+				EB85F5D8295221BF00328C18 /* openkrownUI */,
+				EB85F5EA295221C600328C18 /* openkrownUITests */,
+				EB85F5F4295221C600328C18 /* openkrownUIUITests */,
+				EB85F5D7295221BF00328C18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB85F5D7295221BF00328C18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB85F5D6295221BF00328C18 /* openkrownUI.app */,
+				EB85F5E7295221C600328C18 /* openkrownUITests.xctest */,
+				EB85F5F1295221C600328C18 /* openkrownUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB85F5D8295221BF00328C18 /* openkrownUI */ = {
+			isa = PBXGroup;
+			children = (
+				EB85F5D9295221BF00328C18 /* openkrownUIApp.swift */,
+				EB85F5DB295221BF00328C18 /* ContentView.swift */,
+				EB85F5DD295221C600328C18 /* Assets.xcassets */,
+				EB85F5E2295221C600328C18 /* openkrownUI.entitlements */,
+				EB85F5DF295221C600328C18 /* Preview Content */,
+			);
+			path = openkrownUI;
+			sourceTree = "<group>";
+		};
+		EB85F5DF295221C600328C18 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB85F5E0295221C600328C18 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB85F5EA295221C600328C18 /* openkrownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB85F5EB295221C600328C18 /* openkrownUITests.swift */,
+			);
+			path = openkrownUITests;
+			sourceTree = "<group>";
+		};
+		EB85F5F4295221C600328C18 /* openkrownUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB85F5F5295221C600328C18 /* openkrownUIUITests.swift */,
+				EB85F5F7295221C600328C18 /* openkrownUIUITestsLaunchTests.swift */,
+			);
+			path = openkrownUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB85F5D5295221BF00328C18 /* openkrownUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB85F5FB295221C600328C18 /* Build configuration list for PBXNativeTarget "openkrownUI" */;
+			buildPhases = (
+				EB85F5D2295221BF00328C18 /* Sources */,
+				EB85F5D3295221BF00328C18 /* Frameworks */,
+				EB85F5D4295221BF00328C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openkrownUI;
+			productName = openkrownUI;
+			productReference = EB85F5D6295221BF00328C18 /* openkrownUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB85F5E6295221C600328C18 /* openkrownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB85F5FE295221C600328C18 /* Build configuration list for PBXNativeTarget "openkrownUITests" */;
+			buildPhases = (
+				EB85F5E3295221C600328C18 /* Sources */,
+				EB85F5E4295221C600328C18 /* Frameworks */,
+				EB85F5E5295221C600328C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB85F5E9295221C600328C18 /* PBXTargetDependency */,
+			);
+			name = openkrownUITests;
+			productName = openkrownUITests;
+			productReference = EB85F5E7295221C600328C18 /* openkrownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB85F5F0295221C600328C18 /* openkrownUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB85F601295221C600328C18 /* Build configuration list for PBXNativeTarget "openkrownUIUITests" */;
+			buildPhases = (
+				EB85F5ED295221C600328C18 /* Sources */,
+				EB85F5EE295221C600328C18 /* Frameworks */,
+				EB85F5EF295221C600328C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB85F5F3295221C600328C18 /* PBXTargetDependency */,
+			);
+			name = openkrownUIUITests;
+			productName = openkrownUIUITests;
+			productReference = EB85F5F1295221C600328C18 /* openkrownUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB85F5CE295221BF00328C18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EB85F5D5295221BF00328C18 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EB85F5E6295221C600328C18 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EB85F5D5295221BF00328C18;
+					};
+					EB85F5F0295221C600328C18 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EB85F5D5295221BF00328C18;
+					};
+				};
+			};
+			buildConfigurationList = EB85F5D1295221BF00328C18 /* Build configuration list for PBXProject "openkrownUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB85F5CD295221BF00328C18;
+			productRefGroup = EB85F5D7295221BF00328C18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB85F5D5295221BF00328C18 /* openkrownUI */,
+				EB85F5E6295221C600328C18 /* openkrownUITests */,
+				EB85F5F0295221C600328C18 /* openkrownUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB85F5D4295221BF00328C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB85F5E1295221C600328C18 /* Preview Assets.xcassets in Resources */,
+				EB85F5DE295221C600328C18 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB85F5E5295221C600328C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB85F5EF295221C600328C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB85F5D2295221BF00328C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB85F5DC295221BF00328C18 /* ContentView.swift in Sources */,
+				EB85F5DA295221BF00328C18 /* openkrownUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB85F5E3295221C600328C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB85F5EC295221C600328C18 /* openkrownUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB85F5ED295221C600328C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB85F5F8295221C600328C18 /* openkrownUIUITestsLaunchTests.swift in Sources */,
+				EB85F5F6295221C600328C18 /* openkrownUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB85F5E9295221C600328C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB85F5D5295221BF00328C18 /* openkrownUI */;
+			targetProxy = EB85F5E8295221C600328C18 /* PBXContainerItemProxy */;
+		};
+		EB85F5F3295221C600328C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB85F5D5295221BF00328C18 /* openkrownUI */;
+			targetProxy = EB85F5F2295221C600328C18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB85F5F9295221C600328C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB85F5FA295221C600328C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EB85F5FC295221C600328C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = openkrownUI/openkrownUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"openkrownUI/Preview Content\"";
+				DEVELOPMENT_TEAM = XJX8PUCD89;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreatyve.openkrownUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB85F5FD295221C600328C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = openkrownUI/openkrownUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"openkrownUI/Preview Content\"";
+				DEVELOPMENT_TEAM = XJX8PUCD89;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreatyve.openkrownUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EB85F5FF295221C600328C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJX8PUCD89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreatyve.openkrownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/openkrownUI.app/Contents/MacOS/openkrownUI";
+			};
+			name = Debug;
+		};
+		EB85F600295221C600328C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJX8PUCD89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreatyve.openkrownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/openkrownUI.app/Contents/MacOS/openkrownUI";
+			};
+			name = Release;
+		};
+		EB85F602295221C600328C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJX8PUCD89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreatyve.openkrownUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = openkrownUI;
+			};
+			name = Debug;
+		};
+		EB85F603295221C600328C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJX8PUCD89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreatyve.openkrownUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = openkrownUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB85F5D1295221BF00328C18 /* Build configuration list for PBXProject "openkrownUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB85F5F9295221C600328C18 /* Debug */,
+				EB85F5FA295221C600328C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB85F5FB295221C600328C18 /* Build configuration list for PBXNativeTarget "openkrownUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB85F5FC295221C600328C18 /* Debug */,
+				EB85F5FD295221C600328C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB85F5FE295221C600328C18 /* Build configuration list for PBXNativeTarget "openkrownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB85F5FF295221C600328C18 /* Debug */,
+				EB85F600295221C600328C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB85F601295221C600328C18 /* Build configuration list for PBXNativeTarget "openkrownUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB85F602295221C600328C18 /* Debug */,
+				EB85F603295221C600328C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB85F5CE295221BF00328C18 /* Project object */;
+}
